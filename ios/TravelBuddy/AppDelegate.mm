@@ -1,3 +1,4 @@
+
 #import "AppDelegate.h"
 #import "RNBootSplash.h"
 
@@ -67,7 +68,7 @@
 
 // Explicitly define remote notification delegates to ensure compatibility with some third-party libraries
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
-{
+{ 
   return [super application:application didReceiveRemoteNotification:userInfo fetchCompletionHandler:completionHandler];
 }
 
