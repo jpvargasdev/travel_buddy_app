@@ -1,59 +1,30 @@
 {
-  "name": "TravelBuddy",
-  "displayName": "TravelBuddy",
   "expo": {
-    "name": "TravelBuddy",
-    "slug": "TravelBuddy",
-    "scheme": "travelbuddy",
+    "name": "travel_buddy_mobile",
+    "slug": "travel_buddy_mobile",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/app-icon-all.png",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/images/splash-logo-all.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#191015"
+      "backgroundColor": "#ffffff"
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "jsEngine": "hermes",
     "assetBundlePatterns": [
       "**/*"
     ],
-    "android": {
-      "icon": "./assets/images/app-icon-android-legacy.png",
-      "package": "co.travelbuddy",
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/app-icon-android-adaptive-foreground.png",
-        "backgroundImage": "./assets/images/app-icon-android-adaptive-background.png"
-      },
-      "splash": {
-        "image": "./assets/images/splash-logo-android-universal.png",
-        "resizeMode": "contain",
-        "backgroundColor": "#191015"
-      }
-    },
     "ios": {
-      "icon": "./assets/images/app-icon-ios.png",
-      "supportsTablet": true,
-      "bundleIdentifier": "co.travelbuddy",
-      "splash": {
-        "image": "./assets/images/splash-logo-ios-mobile.png",
-        "tabletImage": "./assets/images/splash-logo-ios-tablet.png",
-        "resizeMode": "contain",
-        "backgroundColor": "#191015"
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/images/app-icon-web-favicon.png",
-      "splash": {
-        "image": "./assets/images/splash-logo-web.png",
-        "resizeMode": "contain",
-        "backgroundColor": "#191015"
-      }
-    },
-    "plugins": [
-      "expo-localization"
-    ]
+      "favicon": "./assets/favicon.png"
+    }
   }
 }
